@@ -35,6 +35,10 @@ rate once the optimizer tends to not improve anymore. The effect of this is clea
 Once the performance plateus we see a sudden increase after reducing the learning rate of the Adam optimizer,
 tho the effect is less visible on the validation samples.
 
+This model achieves fairly well while at the samte time beeing very easy to understand.
+Comparatively it performs about the same (delta 0.6) as kMobileNet 16ch, SEER (RegNet10B), ResNet-20, ResNet-44, GP EI, 	
+DNN+Probabilistic Maxout, ResNet-18, Maxout Network all the while beeing far more simple.
+
 ![](lr.png)
 ![](loss.png)
 ![](accuracy.png)
